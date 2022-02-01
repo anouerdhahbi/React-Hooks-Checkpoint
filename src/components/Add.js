@@ -29,7 +29,7 @@ export const Add = ({addnewmovie}) => {
       return alert("fill all the blanks")
     }
     addnewmovie(addMovie)
-    setAddMovie({Title:"",
+    setAddMovie({title:"",
     description:"",
     posterURL:"",
     rating:0,
